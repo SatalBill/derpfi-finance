@@ -1,0 +1,42 @@
+// CustomButton
+.custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    border-radius: 10px;
+    padding: 0 30px;
+    cursor: pointer;
+
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 598px) {
+    .custom-button {
+      padding: 10px 20px;
+  }
+}
+
+.icon-button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+// ActionButton
+.action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    padding: 19px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.main {
+  padding: 80px 0;
+  /* NOTE: remove wave temporarily, cuz it doesn't fit the new footer
+   * need to fix this after designer makes a new landing page.
+   **/
+
+  // background-image: url(../../images/wave.svg);
+  // background-position: bottom;
+  // background-repeat: repeat-x;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+.body {
+  margin: 0 10%;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
